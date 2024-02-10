@@ -1,0 +1,37 @@
+.CategoryMenu{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    text-align: center;
+}
+
+
+li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+
+
+}
+
+ul{
+    display: flex;
+    justify-content:space-between ;
+
+}
+
+.LinkMenu{
+    font-family: "Mount-SemiBold";
+    font-size: 14px;
+    background-color: transparent;
+    border-color: transparent;
+    color:#F20519;
+}
+
+.LinkMenu:hover{
+    background-color: #F23030;
+    border-radius: 3px;
+    color:#fff;
+    transition-duration: 0.5s;
+}

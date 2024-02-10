@@ -1,0 +1,68 @@
+@import url(../../fonts.css);
+
+.MiniHeader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #F23030;
+}
+
+.textMiniHeader{
+    font-family: "Mount-Bold" ;
+    font-size: 12px;
+    color:#F2F2F2;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.08);
+
+    font-family: "Mount-SemiBold";
+
+}
+
+.LogoStore{
+    background-image: url(../../../public/images/market.png);
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.SearchImput{
+    background: #eee;
+    color: #999;
+    border-radius: 5px;
+    font-family: "Mount-Regular";
+    font-size: 12px;
+    border: none;
+    padding: 10px;
+    width: 20rem;
+    outline: none;
+    
+}
+.SearchImput::-moz-focus-inner{
+    outline: none;
+}
+
+
+.DivSearch{
+    background: #eee;
+    color: #999;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 20px;
+    height: 40px;
+    padding-right: 20px;
+    justify-content: center;
+    display: flex;
+}

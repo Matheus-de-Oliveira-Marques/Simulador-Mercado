@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Mount-Regular";
+    src: url(../public/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Mount-Light";
+    src: url(../public/fonts/Montserrat-Light.ttf);
+}
+
+
+@font-face {
+    font-family: "Mount-Bold";
+    src: url(../public/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Mount-Bold-Extra";
+    src: url(../public/fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Mount-SemiBold";
+    src: url(../public/fonts/Montserrat-SemiBold.ttf);
+}
+
+
+
+p {
+    font-family: "Mount-Bold-Extra";
+}
